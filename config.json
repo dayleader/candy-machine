@@ -1,0 +1,95 @@
+{ 
+    "layersPath": "./layers",
+    "buildPath": "./build",
+    "format": {
+      "width": 2048,
+      "height": 2048
+    },
+    "metadataConfiguration": {
+      "namePrefix": "Your Collection",
+      "description": "Remember to replace this description",
+      "baseUri": "ipfs://NewUriToReplace",
+      "externalUrl": ""
+    },
+    "collectionStartsFrom": 1,
+    "uniqueDnaTollerance": 0,
+    "layerConfigurations": [
+        {
+            "size": 5,
+            "layersOrder": [
+              {
+                "name": "background",
+                "options": {
+                  "displayName": "Background",
+                  "rarity": [
+                    {
+                      "weight": 2,
+                      "filenames": [
+                        "yellow.png"
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "name": "face",
+                "options": {
+                  "displayName": "Face"
+                }
+              },
+              {
+                "name": "hair",
+                "options": {
+                  "displayName": "Hair",
+                  "rarity": [
+                    {
+                      "weight": 3,
+                      "filenames": [
+                        "silver.png"
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "name": "eyes"
+              },
+              {
+                "name": "lips"
+              }
+            ]
+        },
+        {
+          "size": 2,
+          "layersOrder": [
+            {
+              "name": "background",
+              "options": {
+                "displayName": "Background"
+              }
+            },
+            {
+              "name": "face",
+              "options": {
+                "displayName": "Face"
+              }
+            },
+            {
+              "name": "hair",
+              "options": {
+                "displayName": "Hair"
+              }
+            },
+            {
+              "name": "eyes"
+            },
+            {
+              "name": "lips"
+            },
+            {
+              "name": "accessories"
+            }
+          ]
+      }
+    ]
+}
